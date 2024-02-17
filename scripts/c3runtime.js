@@ -4422,6 +4422,7 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.OnLayoutStart,
 		C3.Plugins.Text.Acts.SetText,
 		C3.Plugins.Keyboard.Cnds.OnAnyKey,
+		C3.Plugins.Touch.Cnds.OnTapGesture,
 		C3.Behaviors.Flash.Acts.Flash,
 		C3.Plugins.System.Acts.Wait,
 		C3.Plugins.System.Acts.GoToLayout,
@@ -4446,7 +4447,6 @@ self.C3_GetObjectRefTable = function () {
 		C3.Plugins.System.Cnds.EveryTick,
 		C3.Plugins.System.Cnds.Every,
 		C3.Plugins.System.Acts.AddVar,
-		C3.Plugins.Touch.Cnds.OnTapGesture,
 		C3.Behaviors.Platform.Acts.SimulateControl,
 		C3.Plugins.Sprite.Acts.Destroy
 	];
